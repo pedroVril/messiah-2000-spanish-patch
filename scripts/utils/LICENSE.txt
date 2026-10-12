@@ -1,0 +1,17 @@
+MIT License
+
+Copyright (c) 2026 pedrovril (https://github.com/pedrovril)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the installer scripts in this project (the .bat files), to deal
+in them without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies thereof, subject to the inclusion of this notice.
+
+THE SCRIPTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+NOTA: los ficheros del juego (audio, textos, videos, imagenes) pertenecen
+a sus respectivos propietarios (Shiny Entertainment / Interplay
+Entertainment). Este proyecto no incluye el juego ni reclama derechos
+sobre esos ficheros; solo ordena, verifica e instala traducciones
+aportadas por la comunidad.

@@ -14,4 +14,8 @@ Doble clic en cada uno y sigue lo que dice la ventana.
 El respaldo (`scripts/backup`) nunca se sube a git.
 
 Extra: `jugar-messiah.bat` — arranca el juego en modo D3D con los
-switches estables (`-i +!`). Úsalo si el juego no abre
+switches estables (`-x -i +!`). Úsalo si el juego no abre (ver
+`docs/jugar-en-windows-11.md` en la raíz).
+
+Empaquetado: `crear-release.bat` — ensambla `release/` (+ ZIP) con
+todo lo necesario para instalar. No requiere admin.

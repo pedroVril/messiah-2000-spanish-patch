@@ -1,0 +1,17 @@
+MESSIAH (2003) - PARCHE ESPANOL (GOG / Steam)
+=============================================
+Traduccion al espanol: textos, voces in-game y menus.
+Autor: pedrovril - https://github.com/pedrovril
+
+INSTALACION EN 3 PASOS
+----------------------
+1. Doble clic en scripts\crear-respaldo.bat
+   (guarda tus ficheros originales en scripts\backup).
+2. Doble clic en scripts\instalar-parche-es.bat
+   (pulsa Si en el aviso de Administrador).
+3. Juega con scripts\jugar-messiah.bat (siempre este,
+   nunca el .exe directo ni el boton de GOG Galaxy).
+
+Para volver a ingles: scripts\restaurar-respaldo.bat.
+Si el juego no abre en Windows 11: lee docs\jugar-en-windows-11.md.
+Solo pc\intro.mve queda en ingles (sin doblaje disponible).

@@ -78,6 +78,11 @@ docs/       Guía jugar-en-windows-11.md
 images/     Portada de este README
 ```
 
+## Paquete release
+`scripts\crear-release.bat` genera `release\` (+ `messiah-parche-es.zip`)
+con LEEME, licencia, parche, scripts y guía: es lo que se distribuye a
+jugadores. Esa carpeta está ignorada por git.
+
 ## Limitaciones conocidas
 - `pc\intro.mve` (intro principal) sigue en inglés: ninguna fuente lo
   traía doblado. Se añadirá cuando se consiga.

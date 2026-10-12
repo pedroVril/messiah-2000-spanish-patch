@@ -2,6 +2,10 @@
 # tanto en la ubicacion actual (scripts/backup) como la anterior
 backup/
 
+# Paquete release generado (ver scripts/crear-release.bat)
+release/
+messiah-parche-es.zip
+
 # Logs, temporales y copias de edicion
 *.log
 *.tmp
