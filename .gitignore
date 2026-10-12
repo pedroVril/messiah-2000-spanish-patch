@@ -1,0 +1,18 @@
+# Respaldos del instalador (binarios del juego; nunca commitear),
+# tanto en la ubicacion actual (scripts/backup) como la anterior
+backup/
+
+# Logs, temporales y copias de edicion
+*.log
+*.tmp
+*.bak
+*.orig
+*~
+
+# Restos de sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.swp
+*.swo

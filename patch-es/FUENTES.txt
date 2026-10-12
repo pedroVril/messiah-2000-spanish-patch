@@ -1,0 +1,53 @@
+FUENTES DEL PARCHE ESPAÑOL — Messiah (2003) GOG/Steam
+=====================================================
+
+Contenido de patch-es/ (estructura espejo del juego):
+
+1. pc\language\Spanish\All_Spanish.txt (99204 bytes)
+   Fuente: trad1\pc\language\Spanish\All_Spanish.txt
+   Motivo: version COMPLETA (4306 lineas). La de GOG esta recortada
+   (92915 bytes, 3880 lineas).
+
+2. pc\sound\sspeek.dta (60611684 bytes) + sspeek.idx (141056 bytes)
+   Fuente: trad1\pc\sound\sspeek.*  (byte-identico a
+   trad2\Messiah_patch_esp\messiah\pc\sound\espeek.*)
+   Motivo: voces espanolas in-game + secuencias in-engine. Se instala
+   como sspeek.* y se activa con registro Language=S (metodo limpio).
+   No se pisa el espeek.* ingles.
+
+3. pc\interfce\Menu\Spanish\*.tga (19 ficheros x 308012 bytes)
+   Fuente: trad1\pc\interfce\Menu\Spanish\
+   Motivo: menus graficos en espanol, ausentes en GOG
+   (GOG solo trae French/, German/, new/).
+
+4. pc\endy.mve (10332240 bytes) + pc\Slogo.mve (13084842 bytes)
+   + pc\ttslogo.mve (2521950 bytes)
+   Fuente: trad1\pc\*.mve
+   Motivo: cinematicas/logos en espanol segun fuentes originales.
+   Nota: a dia de hoy son byte-identicos a los de GOG, asi que su
+   copia es inocua; se incluyen para que patch-es quede completo
+   y para cubrir instalaciones (p. ej. Steam) donde pudieran diferir.
+
+NO INCLUIDO (decision documentada):
+- pc\intro.mve (56 MB, la intro principal) e Interplay.MVE: trad1 no
+  los trae y trad2 declara que no cubre cinematicas. Se deja el
+  intro.mve original de momento; cuando se consiga el doblaje en
+  espanol se anadira aqui como pc\intro.mve.
+- Messiah.spa (94372 bytes): GOG ya lo incluye identico
+  (mismo hash que trad1\Messiah.spa y que trad2\Messiah.eng).
+  El instalador lo verifica y no lo sobrescribe.
+- Truco trad2 (Messiah.eng sobrescrito + espeek renombrado): descartado
+  en v1 porque destruye el ingles.
+
+HASHES DE REFERENCIA (SHA256, 12 primeros; verificados 12-10-2026)
+Originales GOG/Steam:
+  MessiahD3D.exe 1130496 25a021657637 | Glide 1052672 032d4ef52855
+  Messiah.spa 94372 6cdf44800f4f | Messiah.eng 87326 841f1a801e27
+  All_Spanish.txt 92915 c9eede81ebdd | endy.mve 48033a031957
+  Slogo.mve 4420e5efeb02 | ttslogo.mve 1de9bc4cd34d | intro.mve 3fe75f8ac8ee
+  espeek.dta 0c4e8f9c87cf | espeek.idx e511478bd591
+Parche (van tambien incrustados en los scripts):
+  All_Spanish.txt 99204 7e4365b4658c | sspeek.dta 7121f52751d7
+  sspeek.idx cf41704c2318
+Entorno que funciona en Win11: exe Widescreen 1146880 18d9b8431857,
+  winmm adambiser 52750 6044440a8304 (GOG 64526 983f2c8add9a).
