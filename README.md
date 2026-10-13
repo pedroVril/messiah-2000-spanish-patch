@@ -1,8 +1,8 @@
 <div align="">
-  <img src="images/messiah-front.jpg" width="400" alt="Messiah (2003) - Parche español">
+  <img src="images/messiah-front.jpg" width="400" alt="Messiah (2000) - Parche español">
 </div>
 
-# Messiah (2003) — Parche español + guía Windows 11
+# Messiah (2000) — Parche español + guía Windows 11
 
 Parche de traducción al español para **Messiah (2003)** de Shiny,
 válido para las versiones de **GOG y Steam**. Incluye además una guía
