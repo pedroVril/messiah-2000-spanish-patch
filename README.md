@@ -4,12 +4,12 @@
 
 # Messiah (2000) — Parche español + guía Windows 11
 
-Parche de traducción al español para **Messiah (2003)** de Shiny,
+Parche de traducción al español para **Messiah (2000)** de Shiny,
 válido para las versiones de **GOG y Steam**. Incluye además una guía
 para hacer funcionar el juego en **Windows 11**.
 
 ## Índice
-- [Messiah (2003) — Parche español + guía Windows 11](#messiah-2003--parche-español--guía-windows-11)
+- [Messiah (2000) — Parche español + guía Windows 11](#messiah-2000--parche-español--guía-windows-11)
   - [Índice](#índice)
   - [Qué traduce](#qué-traduce)
   - [Requisitos](#requisitos)
